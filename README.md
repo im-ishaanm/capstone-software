@@ -8,6 +8,9 @@ image processing, barcode scanner and LIS all in one go in an infinite loop:
 - Once scanned, the LIS attempts to process the barcode.
 - On complete, the process loops.
 
+> Note: Before executing, please ensure that the folder *yolov5* is present in the demo folder.
+This folder can be transferred from the *image_processing* folder.
+
 To execute the demonstration, run _testlive.py_
 
 # Modules
