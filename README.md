@@ -22,10 +22,10 @@ It features an object oriented design to setup and actuate the motors easily usi
 #### Applications
 - Arduino _V1.8 or above_: [Download](https://www.arduino.cc/en/software)
 #### Libraries
-TBD
+- Servo
 
 ### 2. Installation / Execution
-- Open _actuation.ino_ using Arduino.
+- Open _actuation.ino_ in the actuation folder, using Arduino.
 - Make any changes to the code where required.
 - Click *Verify* to verify and check for any errors.
 - Click *Upload* to upload the code to your Arduino device.
