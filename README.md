@@ -1,3 +1,16 @@
+> Demonstration Files
+The demo setup is placed under the *demo* folder. This demo aims to demonstrate the
+image processing, barcode scanner and LIS all in one go in an infinite loop:
+
+- An image is captured to locate the test tube.
+- Once the test tube is located, co-ordinates and color are printed.
+- Barcode scanner opens and continues to run until a barcode is scanned.
+- Once scanned, the LIS attempts to process the barcode.
+- On complete, the process loops.
+
+To execute the demonstration, run _testlive.py_
+
+> Modules
 # Actuation (Arduino)
 The motor actuation code is compiled into _actuation.ino_.
 It features an object oriented design to setup and actuate the motors easily using the stepper motor class.
@@ -68,3 +81,6 @@ from barcode_scanner.barcode_scanner import scan_barcode
 
 scan_barcode()
 ```
+
+
+
